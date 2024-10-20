@@ -1,0 +1,35 @@
+.mursh{
+display: flex;  
+justify-content: space-between;
+}
+.card-banner img{
+cursor:pointer;
+}
+.img-card img{
+      cursor: pointer;
+}
+.section-3{
+    margin-top: 150px;
+}
+.section-5{
+    background-image:  url(img/9.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 50px;
+}
+.section-5{
+    position: relative;
+}
+.section-5::before{
+    content: "";
+    background-color: rgba(2, 2, 21, 0.23);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.happy-customer{
+    display: flex;
+    padding-top: 25px;
+}
